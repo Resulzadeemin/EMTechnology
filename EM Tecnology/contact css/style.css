@@ -1,0 +1,255 @@
+.container {
+  padding: 20px;
+  /* width: 50%; */
+  margin: 0 auto;
+}
+
+body{
+  background: url("../img/contact.png") center/cover; 
+  background-repeat: no-repeat; 
+  height: 100vh;
+  background-color: rgba(214, 214, 214, 0.418);
+}
+
+.head ul{
+  /* display: flex; */
+  text-align: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head li a{ 
+  color:rgba(0, 0, 0, 0.589) ;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgba(9, 110, 156, 0.233); */
+  font-size: 20px;
+  border-radius: 1px 1px;
+}
+
+.head li a:hover {
+  background-color: rgba(9, 110, 156, 0.233);
+  transition: .5s;
+}
+
+.dropbtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-ach {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-ach a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color:rgb(33, 3, 73);
+}
+
+.dropdown-ach a:hover {       
+    background-color: #f1f1f1;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: .5s;
+}
+
+.dropdown:hover .dropdown-ach {
+  display: block;
+  /* margin: 10px 1px 10px; */
+  box-shadow: 8px 8px 5px rgb(8, 54, 19);
+  border-radius: 2px;
+  transition: .5s;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: 0;
+  outline: none;
+  box-shadow: 0 0 10px gainsboro;
+  background-color:rgba(197, 197, 197, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+option{
+  color: #5e98a0;
+}
+
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(59, 59, 59);
+  padding: 5px;
+}
+
+input[type=submit]{
+  background-color: #5e98a0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1493a4;
+  border: 0;
+  outline: none;
+  transition: .5s;
+}
+
+.logo img{
+  width: 240px;
+  height: 110px;
+  padding: 20px;
+}
+
+.con h3{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 40px;
+  color: rgb(14, 14, 14);
+}
+.con1 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.178), -3px -3px 6px rgba(80, 80, 80, 0.164), inset 2px 2px 5px rgba(90, 90, 90, 0.158), inset -2px -2px 5px rgba(0, 0, 0, 0.185);
+  background:rgba(240, 240, 240, 0.74);
+  color: rgba(29, 29, 29, 0.801);
+  border-radius: 5px;
+  margin: 20px;
+}
+.footer{
+  /* display: flex; */
+  justify-content: space-evenly;
+  background: linear-gradient(150deg,  #afdfebc0 , #7497aab4, #4b729c );
+}
+
+.fot1{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Verdana,Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.fot1 i{
+  font-size: 30px;
+  color: rgba(22, 22, 22, 0.521);
+}
+.fot2{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Verdana,Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.fot2 i{
+font-size: 30px;
+color: rgba(22, 22, 22, 0.521);
+}
+.loc li a{
+color:rgba(255, 255, 255, 0.699);
+}
+
+.fot3{
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+font-family: Verdana,Tahoma, sans-serif;
+text-align: center;
+padding: 20px;
+}
+.fot3 i{
+font-size: 30px;
+color: rgba(22, 22, 22, 0.521);
+}
+
+.fot3 p{
+width: 90%;
+margin: 0 auto;
+}
+.fot4{
+padding: 25px;
+}
+.fot4 input[type=mail]{
+font-size: 14px;
+line-height: 25px;
+color: #000000;
+font-family: "Roboto";
+text-align: center;
+background-color:#f0f0f0;
+border-radius: 5px;
+border:0;
+outline:none;
+padding:5px 18px;
+}
+
+.fot4 input[type=submit]{
+font-size: 14px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Roboto";
+text-align: center;
+background-color:#36111d;
+border-radius: 5px;
+border:0;
+outline:none;
+padding:5px 15px;
+}
+
+.fot4 input:hover[type=submit]{
+background-color:rgb(49, 47, 47);
+transition: .5s;
+}
+
+.fot4 p{
+font-size: 16px;
+padding: 20px;
+line-height: 24px;
+font-weight: 400;
+font-family: Verdana,Tahoma, sans-serif;
+text-align: center;
+padding: 20px;
+}
+
+@media only screen and (min-width: 768px){
+
+  .head ul{
+    display: flex;
+  }
+  .container{
+    width: 50%;
+  }
+
+  .footer{
+    display: flex; 
+  }
+  .fot3 p{
+    width: 400px;
+  }
+
+}
